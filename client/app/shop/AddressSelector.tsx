@@ -49,7 +49,7 @@ export default function AddressSelector({ addLocation }: DataType) {
             setShowLocationPopup(false);
           }, 6000);
 
-          const googleMapsToken = process.env.GOOGLE_MAPS_API_KEY;
+          const googleMapsToken = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
           const url = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${latitude},${longitude}&key=${googleMapsToken}`;
 
           try {
