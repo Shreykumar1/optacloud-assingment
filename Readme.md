@@ -1,3 +1,6 @@
+# OptaCloud Assingment
+[[Watch the assingment video]](https://www.youtube.com/watch?v=EEdAFJLYSzY)
+
 ## Features
 
 1. **User Authentication**: Secure login and signup functionality, allowing users to access their accounts.
